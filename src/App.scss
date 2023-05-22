@@ -1,0 +1,19 @@
+.main {
+  height: 100%;
+  padding-inline: 10rem;
+  padding-block: 3rem;
+  background-color: #adadb5;
+}
+
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+.card {
+  border: black 1px solid;
+}
+
+.card-img {
+  width: 128px;
+}
