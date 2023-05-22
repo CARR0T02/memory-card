@@ -1,3 +1,5 @@
+@use './variables.scss' as v;
+
 /* START OF RESET */
 /* Box sizing rules */
 *,
@@ -24,6 +26,7 @@ body,
 */
 body {
   line-height: 1.5;
+  background-color: v.$base-color;
 }
 /* Improve media default */
 img,
