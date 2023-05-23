@@ -20,16 +20,27 @@ import strawberryMagnum from '../images/strawberry-magnum.svg';
 import vanillaCupcake from '../images/vanilla-cupcake.svg';
 import slicedPizza from '../images/sliced-pizza.svg';
 
+// Gives at least one correct answer in a random position
 export const getRandomItems = (size, history) => {
   let tempMap = new Set();
   let arr = [];
-  let index;
+  let index, correctAns, correctAnsIndex;
+  do {
+    index = Math.floor(Math.random() * cards.length);
+  } while (history.includes(cards[index].name));
+  correctAns = cards[index];
+  correctAnsIndex = Math.floor(Math.random() * size);
+  tempMap.add(cards[index].name);
   for (let i = 0; i < size; i++) {
-    do {
-      index = Math.floor(Math.random() * cards.length);
-    } while (tempMap.has(cards[index].name));
-    tempMap.add(cards[index].name);
-    arr.push(cards[index]);
+    if (i === correctAnsIndex) {
+      arr.push(correctAns);
+    } else {
+      do {
+        index = Math.floor(Math.random() * cards.length);
+      } while (tempMap.has(cards[index].name));
+      tempMap.add(cards[index].name);
+      arr.push(cards[index]);
+    }
   }
   return arr;
 };
