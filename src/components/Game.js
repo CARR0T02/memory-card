@@ -49,7 +49,6 @@ export default function Game() {
           <GameCard key={uniqid()} handleClick={handleClick} item={item} />
         ))}
       </div>
-      <button onClick={newGame}>New Game</button>
     </div>
   );
 }
