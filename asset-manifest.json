@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e749cee.css",
+    "main.js": "/static/js/main.e7a0c12b.js",
+    "static/media/sliced-pizza.svg": "/static/media/sliced-pizza.daff5f02aac8ab9109bf3ae644be207f.svg",
+    "static/media/ice-cupcake.svg": "/static/media/ice-cupcake.666dd0fa4f436da407e0b44115cd3891.svg",
+    "static/media/pizza.svg": "/static/media/pizza.4fb32eb79a5913e3fb6d3138035b024d.svg",
+    "static/media/donut.svg": "/static/media/donut.3269e80d83ced3f44067bdecc8bdb745.svg",
+    "static/media/vanilla-cupcake.svg": "/static/media/vanilla-cupcake.d94b3983aa4bd737c0f70e9251fc7431.svg",
+    "static/media/soft-ice-cream.svg": "/static/media/soft-ice-cream.9476ac26dcd9a6c79675b95c6f9c7b91.svg",
+    "static/media/bread-egg.svg": "/static/media/bread-egg.348b9debb42186b04305a7c118115c7a.svg",
+    "static/media/cheeseburger.svg": "/static/media/cheeseburger.42200bc73c803187571a77a29bba278a.svg",
+    "static/media/french-fries.svg": "/static/media/french-fries.187c7e84d1f10fe0027d217f2dd8352c.svg",
+    "static/media/hotdog.svg": "/static/media/hotdog.a55b793b8585cac0802fa61b248c7d50.svg",
+    "static/media/fried-chicken.svg": "/static/media/fried-chicken.876356ad21c3f483992ce08bc8d1b4a0.svg",
+    "static/media/macaron-cookies.svg": "/static/media/macaron-cookies.7a90b051ee2d2a11d0dcd2706a46d904.svg",
+    "static/media/grapes.svg": "/static/media/grapes.278967dedb14db1891920c46019742db.svg",
+    "static/media/apple.svg": "/static/media/apple.e5c2e63f51ca8f897a7d9ae6e5fa635c.svg",
+    "static/media/popcorn.svg": "/static/media/popcorn.da2358fe95a014c6c4977875a7644b40.svg",
+    "static/media/pear.svg": "/static/media/pear.c1f2fb4ceb4a0180ace096faaff76c95.svg",
+    "static/media/carrot.svg": "/static/media/carrot.41c26d6b45f547eee7411161abe1f411.svg",
+    "static/media/cherries.svg": "/static/media/cherries.905d979e7ea0ae3dc2b580838c3fe975.svg",
+    "static/media/lemon.svg": "/static/media/lemon.f037becf8bcf6a79692e787e7223c6b3.svg",
+    "static/media/cookie.svg": "/static/media/cookie.b95b159cad65c2b57fa780b19c9b49d3.svg",
+    "index.html": "/index.html",
+    "static/media/strawberry-magnum.svg": "/static/media/strawberry-magnum.75b0ed34dff639e703663c29144ed4e0.svg",
+    "main.2e749cee.css.map": "/static/css/main.2e749cee.css.map",
+    "main.e7a0c12b.js.map": "/static/js/main.e7a0c12b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e749cee.css",
+    "static/js/main.e7a0c12b.js"
+  ]
+}
