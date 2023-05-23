@@ -1,4 +1,5 @@
 @use './variables.scss' as v;
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
 /* START OF RESET */
 /* Box sizing rules */
@@ -56,9 +57,9 @@ ol[role='list'] {
 /* END OF RESET */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Merienda', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

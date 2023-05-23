@@ -1,19 +1,56 @@
+@use './variables.scss' as v;
 .main {
+  color: v.$text-color;
   height: 100%;
-  padding-inline: 10rem;
-  padding-block: 3rem;
-  background-color: #adadb5;
+  padding-block: 2rem;
+  padding-inline: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  font-size: v.$text-fs;
 }
 
 .gameboard {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
+  padding-block: 2rem;
 }
 .card {
-  border: black 1px solid;
+  background-color: v.$card-color;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 3px 3px 8px #202527;
+  transform: scale(1.05) translateY(-4px);
+  transition: all 200ms;
 }
 
 .card-img {
-  width: 128px;
+  width: 90%;
+}
+
+button {
+  background-color: v.$alt-color;
+  border: transparent;
+  padding: 0.25rem;
+}
+
+@media (max-width: 600px) {
+  .main {
+    font-size: 1rem;
+  }
+
+  .gameboard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card-img {
+    width: 80%;
+  }
 }
